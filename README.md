@@ -14,3 +14,11 @@ These singletons call getContext() when page is initializing. Therefore, the err
 **Add polyfill for constant-source-node**
 
 **Add polyfill for promise OfflineContext.startRendering**
+
+**Stop using es2019 module of 'standardized-audio-context', switch to es5 bundle instead**
+
+**Add polyfill copyToChannel and copyFromChannel for AudioBuffer**
+
+**enable createScriptProcessor**
+
+**make Tone.Param._param.getValueAtTime bind to Tone.Param's getValueAtTime**
