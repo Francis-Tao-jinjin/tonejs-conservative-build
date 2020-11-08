@@ -22,3 +22,8 @@ These singletons call getContext() when page is initializing. Therefore, the err
 **enable createScriptProcessor**
 
 **make Tone.Param._param.getValueAtTime bind to Tone.Param's getValueAtTime**
+
+## log
+
+### 2020.11.9
+    merge upstream dev branch
