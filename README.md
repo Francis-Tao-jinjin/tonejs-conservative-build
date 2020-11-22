@@ -27,3 +27,6 @@ These singletons call getContext() when page is initializing. Therefore, the err
 
 ### 2020.11.9
     merge upstream dev branch
+
+### 2020 11.23
+    check is stdAudioWorkletNode support or not, if it is not support, then use the origional AudioWorkletNode
