@@ -30,3 +30,6 @@ These singletons call getContext() when page is initializing. Therefore, the err
 
 ### 2020 11.23
     check is stdAudioWorkletNode support or not, if it is not support, then use the origional AudioWorkletNode
+
+### 2020 11.28
+    Add polyfill StereoPannerNode, comment out set panner channelCount in CrossFade and Panner, because it will cause safari go slient when using stereoPannerNode polyfill
