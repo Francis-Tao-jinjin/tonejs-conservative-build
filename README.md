@@ -33,3 +33,6 @@ These singletons call getContext() when page is initializing. Therefore, the err
 
 ### 2020 11.28
     Add polyfill StereoPannerNode, comment out set panner channelCount in CrossFade and Panner, because it will cause safari go slient when using stereoPannerNode polyfill
+
+### 2021 03.22
+    If the useragent is Safari, then use original offline context instead of stdOfflineCtx, otherwise, there will be `Attempted to assign to readonly property.` Error throw fromt ToneConstantSource constructor, I find this bug in Safari@14.0.3, macOS Mojave
